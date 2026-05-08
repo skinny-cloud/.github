@@ -1,35 +1,20 @@
-# skinny.cloud — lean AI ops, real receipts
-
-Big Tech AI pricing went up. Token waste went up faster. We measured ours: **389,169 tokens burned at session start** before a single real prompt. Fixed it. Saved **$750/month across 15 projects** from context discipline alone.
-
-That's the receipts. Here's the toolkit.
+Your Claude Code session burned **389,169 tokens before you typed anything.**
+Anthropic billed you for that. We measured it so you don't have to stay ignorant.
 
 ---
 
-## Products
+768MB in `~/.claude/projects`. Loaded every session. Invisible. March–April 2026: quota gone in 19 minutes, 5-hour budget expected. We audited instead of rage-quitting. Context discipline alone cut **$750/month across 15 projects.**
 
-### Runtime Diet Autopilot — free, open-source
+Anthropic makes money when you use more tokens. We make tools that help you use fewer.
 
-Audits your Claude Code context surfaces. Generates a Runtime Diet Card showing exactly where tokens bleed.
+One tool. One command.
 
 ```bash
 curl -sL https://skinny.cloud/diet.sh | bash
 ```
 
-→ [github.com/skinny-cloud/runtime-diet-autopilot](https://github.com/skinny-cloud/runtime-diet-autopilot)
+Audits your context surfaces. Shows exactly where tokens bleed. Free. Open source. Takes 30 seconds.
 
-### Atlas ai-audit diet score — coming soon
+This isn't a cost-cutting guide. It's what happens when engineers get the bill, measure the waste, and ship the fix.
 
-Multi-repo context audit. One score across your entire Claude Code footprint.
-
----
-
-## The backstory
-
-March–April 2026: Claude Code quota crisis hit hard. We audited instead of complaining. Found 768MB sitting in `~/.claude/projects`. Found session-start context bloat nobody was measuring. Built tooling to fix it systematically.
-
-The movement: lean AI ops. Not "use AI less" — use it without waste.
-
----
-
-→ [skinny.cloud](https://skinny.cloud)
+[skinny.cloud](https://skinny.cloud)
